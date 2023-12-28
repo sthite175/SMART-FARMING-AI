@@ -35,6 +35,25 @@ The project is designed to be scalable, accommodating the needs of small-scale f
 Integration with IoT devices and sensors can further enhance the system's capabilities for real-time monitoring.
 "Smart Farming AI" empowers farmers with actionable insights, fostering a more efficient and sustainable approach to agriculture. The integration of crop recommendation and plant disease prediction ensures a comprehensive solution that addresses key challenges faced by farmers in optimizing their yields and preserving crop health.
 
+### Smart Crop Choices:
+AI-driven recommendations tailored to your specific location, soil, and climate. Optimize your crop selection for maximum yield and resource efficiency.
+
+### Plant Disease Prevention:
+Early detection of diseases through advanced image recognition technology. Proactive solutions to protect your crops and enhance overall plant health.
+
+### Sustainable Farming:
+Promote sustainable practices with data-driven decisions and disease prevention. Empower your farming journey for long-term success and environmental stewardship.
+
+### Empowering Farmers:
+Designed for farmers by farmers, our app puts the latest agricultural technology at your fingertips. Join a community dedicated to advancing agriculture through innovation and collaboration.
+
+### Maximize Yield Potential:
+Increase your overall crop yield by leveraging cutting-edge technology for optimized growth. Unlock the full potential of your agricultural endeavors with our advanced recommendations.
+
+### Efficient Resource Management:
+Manage resources effectively with tailored advice on water, fertilizers, and pesticides. Achieve cost savings and environmental sustainability through optimized resource allocation.
+
+
 
 
 ## Run Locally
