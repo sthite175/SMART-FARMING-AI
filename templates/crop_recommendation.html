@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Recommendation Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('/static/agriculture_bg1.jpg') center/cover no-repeat; /* Replace with your image */
+            color: black;
+            text-align: center;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2 style="color: lime;">Crop Recommendation System</h2>
+    </header>
+
+    <h4 style="color: hotpink;">Welcome to our Crop Recommendation System!</h4>
+    <h4 style="color: black;">By Using This Model We Can Recommend Best Crop Please Provide Below Information</h4>
+    <form method="POST" action="/crop_recommendation_predict">
+        <label>Nitrogen</label>
+        <input type="text"  name="N">
+        <br>
+        <br>
+        <label>Phosphorous</label>
+        <input type="text"  name="P">
+        <br>
+        <br>
+        <label>Potassium</label>
+        <input type="text" name="K">
+        <br>
+        <br>
+        <label>Temperature in (Degree)</label>
+        <input type="text" name="temperature">
+        <br>
+        <br>
+        <label>Humidity in (%)</label>
+        <input type="text" name="humidity">
+        <br>
+        <br>
+        <label>PH</label>
+        <input type="text" name="ph">
+        <br>
+        <br>
+        <label>Rainfall in (mm)</label>
+        <input type="text" name="rainfall">
+        <br>
+        <br>
+        <input type="submit" value="Recommend Crop">
+
+</body>
+</html>

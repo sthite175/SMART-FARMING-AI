@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Diasease Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('/static/plantix1.jpg')  center/cover no-repeat; /* Replace with your image */
+            color:black;
+            text-align: center;
+        }
+
+        header {
+            padding: 5px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #27ae60;
+            color:greenyellow;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h2 style="color: greenyellow;">Plant Diasease Prediction</h2>
+    </header>
+
+    <form method="POST" action="/plant_disease_predict" enctype="multipart/form-data">
+        <label for="input">Input Image:</label>
+        <input type="file" name="file" placeholder="Upload Image....." accept=".jpg, .jpeg, .png" required>
+        <button type="submit">Predict Disease</button>
+
+        <p style="color: darkmagenta;">
+            {{result}}
+        </p>
+        
+    </form>
+
+</body>
+</html>
